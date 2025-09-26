@@ -1,0 +1,6 @@
+eumdac
+satpy
+matplotlib
+numpy
+cartopy
+apscheduler

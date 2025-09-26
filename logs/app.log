@@ -1,0 +1,12 @@
+2025-09-26 14:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 15:06:35 IST)" (scheduled at 2025-09-26 14:51:35.107191+05:30)
+2025-09-26 14:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 14:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 15:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+    Fetch the latest HRSEVIRI-IODC product with a 45-minute buffer.
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'utc' is an invalid keyword argument for now()
