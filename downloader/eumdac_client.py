@@ -17,7 +17,7 @@ def fetch_latest_product():
     """
     set_credentials()
 
-    now = dt.datetime.utcnow()
+    now = dt.datetime.now(dt.timezone.utc)
     start_time = (now - dt.timedelta(hours=1)).strftime('%Y-%m-%dT%H:%M:%S')
     end_time = (now - dt.timedelta(minutes=45)).strftime('%Y-%m-%dT%H:%M:%S')
 
