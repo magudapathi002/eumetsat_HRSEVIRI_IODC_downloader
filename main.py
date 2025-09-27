@@ -32,9 +32,10 @@ if __name__ == "__main__":
         'interval',
         minutes=15,
         id='download_and_process',
+        max_instances=2
     )
-
     print("🚀 Scheduler started: fetching HRSEVIRI-IODC every 15 minutes...")
-    # The scheduler will run the job once immediately on start,
-    # and then every 15 minutes.
+
+    download_and_process()
+
     scheduler.start()

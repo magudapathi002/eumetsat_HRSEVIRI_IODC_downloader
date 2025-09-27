@@ -1,6 +1,6 @@
-2025-09-26 14:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 15:06:35 IST)" (scheduled at 2025-09-26 14:51:35.107191+05:30)
-2025-09-26 14:51:35,107 [INFO] ⏳ Checking for new product...
-2025-09-26 14:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 15:06:35 IST)" raised an exception
+2025-09-26 15:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 15:51:35 IST)" (scheduled at 2025-09-26 15:36:35.107191+05:30)
+2025-09-26 15:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 15:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 15:51:35 IST)" raised an exception
 Traceback (most recent call last):
   File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
     retval = job.func(*job.args, **job.kwargs)
@@ -9,4 +9,776 @@ Traceback (most recent call last):
   File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
     Fetch the latest HRSEVIRI-IODC product with a 45-minute buffer.
           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 15:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:06:35 IST)" (scheduled at 2025-09-26 15:51:35.107191+05:30)
+2025-09-26 15:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 15:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 16:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:21:35 IST)" (scheduled at 2025-09-26 16:06:35.107191+05:30)
+2025-09-26 16:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 16:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 16:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:36:35 IST)" (scheduled at 2025-09-26 16:21:35.107191+05:30)
+2025-09-26 16:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 16:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 16:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:51:35 IST)" (scheduled at 2025-09-26 16:36:35.107191+05:30)
+2025-09-26 16:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 16:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 16:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 16:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:06:35 IST)" (scheduled at 2025-09-26 16:51:35.107191+05:30)
+2025-09-26 16:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 16:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 17:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:21:35 IST)" (scheduled at 2025-09-26 17:06:35.107191+05:30)
+2025-09-26 17:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 17:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 17:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:36:35 IST)" (scheduled at 2025-09-26 17:21:35.107191+05:30)
+2025-09-26 17:21:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 17:21:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 17:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:51:35 IST)" (scheduled at 2025-09-26 17:36:35.107191+05:30)
+2025-09-26 17:36:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 17:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 17:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 17:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:06:35 IST)" (scheduled at 2025-09-26 17:51:35.107191+05:30)
+2025-09-26 17:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 17:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 18:06:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:21:35 IST)" (scheduled at 2025-09-26 18:06:35.107191+05:30)
+2025-09-26 18:06:35,115 [INFO] ⏳ Checking for new product...
+2025-09-26 18:06:35,116 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 18:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:36:35 IST)" (scheduled at 2025-09-26 18:21:35.107191+05:30)
+2025-09-26 18:21:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 18:21:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 18:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:51:35 IST)" (scheduled at 2025-09-26 18:36:35.107191+05:30)
+2025-09-26 18:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 18:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 18:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 18:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:06:35 IST)" (scheduled at 2025-09-26 18:51:35.107191+05:30)
+2025-09-26 18:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 18:51:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 19:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:21:35 IST)" (scheduled at 2025-09-26 19:06:35.107191+05:30)
+2025-09-26 19:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 19:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 19:21:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:36:35 IST)" (scheduled at 2025-09-26 19:21:35.107191+05:30)
+2025-09-26 19:21:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 19:21:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 19:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:51:35 IST)" (scheduled at 2025-09-26 19:36:35.107191+05:30)
+2025-09-26 19:36:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 19:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 19:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 19:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:06:35 IST)" (scheduled at 2025-09-26 19:51:35.107191+05:30)
+2025-09-26 19:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 19:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 20:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:21:35 IST)" (scheduled at 2025-09-26 20:06:35.107191+05:30)
+2025-09-26 20:06:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 20:06:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 20:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:36:35 IST)" (scheduled at 2025-09-26 20:21:35.107191+05:30)
+2025-09-26 20:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 20:21:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 20:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:51:35 IST)" (scheduled at 2025-09-26 20:36:35.107191+05:30)
+2025-09-26 20:36:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 20:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 20:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 20:51:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:06:35 IST)" (scheduled at 2025-09-26 20:51:35.107191+05:30)
+2025-09-26 20:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 20:51:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 21:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:21:35 IST)" (scheduled at 2025-09-26 21:06:35.107191+05:30)
+2025-09-26 21:06:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 21:06:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 21:21:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:36:35 IST)" (scheduled at 2025-09-26 21:21:35.107191+05:30)
+2025-09-26 21:21:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 21:21:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 21:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:51:35 IST)" (scheduled at 2025-09-26 21:36:35.107191+05:30)
+2025-09-26 21:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 21:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 21:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 21:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:06:35 IST)" (scheduled at 2025-09-26 21:51:35.107191+05:30)
+2025-09-26 21:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 21:51:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 22:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:21:35 IST)" (scheduled at 2025-09-26 22:06:35.107191+05:30)
+2025-09-26 22:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 22:06:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 22:21:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:36:35 IST)" (scheduled at 2025-09-26 22:21:35.107191+05:30)
+2025-09-26 22:21:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 22:21:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 22:36:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:36:35 IST)" (scheduled at 2025-09-26 22:36:35.107191+05:30)
+2025-09-26 22:36:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 22:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 22:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 22:51:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:06:35 IST)" (scheduled at 2025-09-26 22:51:35.107191+05:30)
+2025-09-26 22:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 22:51:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 23:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:21:35 IST)" (scheduled at 2025-09-26 23:06:35.107191+05:30)
+2025-09-26 23:06:35,114 [INFO] ⏳ Checking for new product...
+2025-09-26 23:06:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 23:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:36:35 IST)" (scheduled at 2025-09-26 23:21:35.107191+05:30)
+2025-09-26 23:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 23:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 23:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:51:35 IST)" (scheduled at 2025-09-26 23:36:35.107191+05:30)
+2025-09-26 23:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 23:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-26 23:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-26 23:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:06:35 IST)" (scheduled at 2025-09-26 23:51:35.107191+05:30)
+2025-09-26 23:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-26 23:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 00:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:21:35 IST)" (scheduled at 2025-09-27 00:06:35.107191+05:30)
+2025-09-27 00:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 00:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 00:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:36:35 IST)" (scheduled at 2025-09-27 00:21:35.107191+05:30)
+2025-09-27 00:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 00:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 00:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:51:35 IST)" (scheduled at 2025-09-27 00:36:35.107191+05:30)
+2025-09-27 00:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 00:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 00:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 00:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:06:35 IST)" (scheduled at 2025-09-27 00:51:35.107191+05:30)
+2025-09-27 00:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 00:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 01:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:21:35 IST)" (scheduled at 2025-09-27 01:06:35.107191+05:30)
+2025-09-27 01:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 01:06:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 01:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:36:35 IST)" (scheduled at 2025-09-27 01:21:35.107191+05:30)
+2025-09-27 01:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 01:21:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 01:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:51:35 IST)" (scheduled at 2025-09-27 01:36:35.107191+05:30)
+2025-09-27 01:36:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 01:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 01:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 01:51:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:06:35 IST)" (scheduled at 2025-09-27 01:51:35.107191+05:30)
+2025-09-27 01:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 01:51:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 02:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:21:35 IST)" (scheduled at 2025-09-27 02:06:35.107191+05:30)
+2025-09-27 02:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 02:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 02:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:36:35 IST)" (scheduled at 2025-09-27 02:21:35.107191+05:30)
+2025-09-27 02:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 02:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 02:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:51:35 IST)" (scheduled at 2025-09-27 02:36:35.107191+05:30)
+2025-09-27 02:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 02:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 02:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 02:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:06:35 IST)" (scheduled at 2025-09-27 02:51:35.107191+05:30)
+2025-09-27 02:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 02:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 03:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:21:35 IST)" (scheduled at 2025-09-27 03:06:35.107191+05:30)
+2025-09-27 03:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 03:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 03:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:36:35 IST)" (scheduled at 2025-09-27 03:21:35.107191+05:30)
+2025-09-27 03:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 03:21:35,116 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 03:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:51:35 IST)" (scheduled at 2025-09-27 03:36:35.107191+05:30)
+2025-09-27 03:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 03:36:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 03:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 03:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:06:35 IST)" (scheduled at 2025-09-27 03:51:35.107191+05:30)
+2025-09-27 03:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 03:51:35,133 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 04:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:21:35 IST)" (scheduled at 2025-09-27 04:06:35.107191+05:30)
+2025-09-27 04:06:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 04:06:35,116 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 04:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:36:35 IST)" (scheduled at 2025-09-27 04:21:35.107191+05:30)
+2025-09-27 04:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 04:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 04:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:51:35 IST)" (scheduled at 2025-09-27 04:36:35.107191+05:30)
+2025-09-27 04:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 04:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 04:51:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 04:51:35 IST)" (scheduled at 2025-09-27 04:51:35.107191+05:30)
+2025-09-27 04:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 04:51:35,116 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 05:06:35,114 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:21:35 IST)" (scheduled at 2025-09-27 05:06:35.107191+05:30)
+2025-09-27 05:06:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 05:06:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 05:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:36:35 IST)" (scheduled at 2025-09-27 05:21:35.107191+05:30)
+2025-09-27 05:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 05:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 05:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:51:35 IST)" (scheduled at 2025-09-27 05:36:35.107191+05:30)
+2025-09-27 05:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 05:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 05:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 05:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:06:35 IST)" (scheduled at 2025-09-27 05:51:35.107191+05:30)
+2025-09-27 05:51:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 05:51:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 06:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:21:35 IST)" (scheduled at 2025-09-27 06:06:35.107191+05:30)
+2025-09-27 06:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 06:06:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 06:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:36:35 IST)" (scheduled at 2025-09-27 06:21:35.107191+05:30)
+2025-09-27 06:21:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 06:21:35,115 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 06:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:51:35 IST)" (scheduled at 2025-09-27 06:36:35.107191+05:30)
+2025-09-27 06:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 06:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 06:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 06:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:06:35 IST)" (scheduled at 2025-09-27 06:51:35.107191+05:30)
+2025-09-27 06:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 06:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 07:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:21:35 IST)" (scheduled at 2025-09-27 07:06:35.107191+05:30)
+2025-09-27 07:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 07:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 07:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:36:35 IST)" (scheduled at 2025-09-27 07:21:35.107191+05:30)
+2025-09-27 07:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 07:21:35,107 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 07:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:51:35 IST)" (scheduled at 2025-09-27 07:36:35.107191+05:30)
+2025-09-27 07:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 07:36:35,107 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 07:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 07:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:06:35 IST)" (scheduled at 2025-09-27 07:51:35.107191+05:30)
+2025-09-27 07:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 07:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 08:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:21:35 IST)" (scheduled at 2025-09-27 08:06:35.107191+05:30)
+2025-09-27 08:06:35,114 [INFO] ⏳ Checking for new product...
+2025-09-27 08:06:35,114 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 08:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:36:35 IST)" (scheduled at 2025-09-27 08:21:35.107191+05:30)
+2025-09-27 08:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 08:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 08:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:51:35 IST)" (scheduled at 2025-09-27 08:36:35.107191+05:30)
+2025-09-27 08:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 08:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 08:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 08:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:06:35 IST)" (scheduled at 2025-09-27 08:51:35.107191+05:30)
+2025-09-27 08:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 08:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 09:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:21:35 IST)" (scheduled at 2025-09-27 09:06:35.107191+05:30)
+2025-09-27 09:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 09:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 09:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:36:35 IST)" (scheduled at 2025-09-27 09:21:35.107191+05:30)
+2025-09-27 09:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 09:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 09:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:51:35 IST)" (scheduled at 2025-09-27 09:36:35.107191+05:30)
+2025-09-27 09:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 09:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 09:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 09:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:06:35 IST)" (scheduled at 2025-09-27 09:51:35.107191+05:30)
+2025-09-27 09:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 09:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 10:06:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:21:35 IST)" (scheduled at 2025-09-27 10:06:35.107191+05:30)
+2025-09-27 10:06:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 10:06:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:21:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 10:21:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:36:35 IST)" (scheduled at 2025-09-27 10:21:35.107191+05:30)
+2025-09-27 10:21:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 10:21:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:36:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 10:36:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:51:35 IST)" (scheduled at 2025-09-27 10:36:35.107191+05:30)
+2025-09-27 10:36:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 10:36:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 10:51:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
+    subprocess.run(
+          ^^^^^^^^^^
+TypeError: 'utc' is an invalid keyword argument for now()
+2025-09-27 10:51:35,107 [INFO] Running job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 11:06:35 IST)" (scheduled at 2025-09-27 10:51:35.107191+05:30)
+2025-09-27 10:51:35,107 [INFO] ⏳ Checking for new product...
+2025-09-27 10:51:35,108 [ERROR] Job "download_and_process (trigger: interval[0:15:00], next run at: 2025-09-27 11:06:35 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/magudapathia/Desktop/eumetsat_downloader/.venv/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magudapathia/Desktop/eumetsat_downloader/scheduler/jobs.py", line 13, in download_and_process
+  File "/home/magudapathia/Desktop/eumetsat_downloader/downloader/eumdac_client.py", line 15, in fetch_latest_product
 TypeError: 'utc' is an invalid keyword argument for now()

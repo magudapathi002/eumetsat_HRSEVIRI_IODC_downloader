@@ -11,16 +11,18 @@ def set_credentials():
     print("✅ Credentials set successfully.")
 
 def fetch_latest_product():
-    """
-    Fetch the latest HRSEVIRI-IODC product with a 45-minute buffer.
-    Returns the product ID or None.
-    """
     set_credentials()
 
     now = dt.datetime.now(dt.timezone.utc)
-    start_time = (now - dt.timedelta(hours=1)).strftime('%Y-%m-%dT%H:%M:%S')
-    end_time = (now - dt.timedelta(minutes=45)).strftime('%Y-%m-%dT%H:%M:%S')
+    start_time = (now - dt.timedelta(hours=0,minutes=16)).strftime('%Y-%m-%dT%H:%M:%S')
+    end_time = (now - dt.timedelta(minutes=0)).strftime('%Y-%m-%dT%H:%M:%S')
+    print(start_time,end_time,"time")
 
+    # Generate 15-minute windows for the past 1 hour
+    # for i in range(4):  # 4 intervals in 1 hour
+    #     start_time = (now - dt.timedelta(minutes=(60 - i * 15))).strftime('%Y-%m-%dT%H:%M:%S')
+    #     end_time = (now - dt.timedelta(minutes=(45 - i * 15))).strftime('%Y-%m-%dT%H:%M:%S')
+    #     print(start_time, end_time, "time")
     search_cmd = [
         'eumdac', 'search',
         '-c', COLLECTION,

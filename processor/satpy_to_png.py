@@ -2,8 +2,8 @@ from satpy import Scene
 from glob import glob
 import matplotlib.pyplot as plt
 import numpy as np
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+import cartopy.crs as ccrs # type: ignore
+import cartopy.feature as cfeature# type: ignore
 import os
 from datetime import timedelta
 from config import settings
