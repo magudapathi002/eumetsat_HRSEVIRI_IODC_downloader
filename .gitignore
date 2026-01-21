@@ -5,3 +5,5 @@ frames
 output
 logs
 .env
+input_clm
+logs

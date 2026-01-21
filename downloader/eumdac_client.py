@@ -3,7 +3,7 @@ import datetime as dt
 import os
 from config import settings
 
-COLLECTION = "EO:EUM:DAT:MSG:HRSEVIRI-IODC"
+COLLECTION = settings.HRSEVIRI_COLLECTION
 OUTPUT_DIR = settings.INPUT_DIR
 
 def set_credentials():
